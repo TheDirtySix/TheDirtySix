@@ -20,3 +20,11 @@
 * Wordpress version 4.6.1
 * Ready to Start
 
+
+##Workflow
+
+1.Pull
+2.Create new branch
+3.Push to new branch
+4.Commit branch
+5.Pull request

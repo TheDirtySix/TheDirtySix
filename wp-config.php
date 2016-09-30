@@ -24,14 +24,15 @@ defined( 'WP_HOME' )  or define( 'WP_HOME', 'http://example.com' ); // no traili
 $table_prefix = 'rndm_'; // please change with 2-5 random letters/digits
 
 // https://api.wordpress.org/secret-key/1.1/salt
-define( 'AUTH_KEY', '%%' );
-define( 'SECURE_AUTH_KEY', '%%' );
-define( 'LOGGED_IN_KEY', '%%' );
-define( 'NONCE_KEY', '%%' );
-define( 'AUTH_SALT', '%%' );
-define( 'SECURE_AUTH_SALT', '%%' );
-define( 'LOGGED_IN_SALT', '%%' );
-define( 'NONCE_SALT', '%%' );
+
+define('AUTH_KEY',         'S/8M7{1mV{-.{zC_Asm1]ydn8cb%@iW3#LdJVfxC=q[9y!k9$}OIr1aebS 2c`/+');
+define('SECURE_AUTH_KEY',  'cB /y%MS/+E8a<H7q{1O:j,LN00Z_{eUIvmuI+DZNMm3n;f|_6f,-+-VO!DbeXT5');
+define('LOGGED_IN_KEY',    '%|0+Q0fQ3W:yx=o[uEu~NvWbn-6TfMjQ}`&SG-CDSU pB}n&%r|ZbSe0weXz=uz6');
+define('NONCE_KEY',        '-C|yz3My(AwN.o61IJis_Wt+5s-|b@n@4I(k}z>8$iKBe+o$U/+MG4yBU!@<3e2A');
+define('AUTH_SALT',        'cJ>ubL>}nc=+0Ooka9#Ot|d}4Qvz0)J8|4<NYy2Lgy,Ge>Q1oPwGL?#A,R7|/JS`');
+define('SECURE_AUTH_SALT', '6Fd(2=-z6^]3FsMoORD6d=WXPlM=,X~x]/s<]=7NZO+|Di|4!|R`wfc6(-0n 3~@');
+define('LOGGED_IN_SALT',   '%G6ONi$z7Wtl<|2k0|*bUDug8n1wIEr3f6~3r-zndk?,Ssz}^4F|X7}{|V10Bl1B');
+define('NONCE_SALT',       '<-$7(jv1F}) KAq+C2S./7qD|cXB3-K43o~:|B?VA9,/0]_1!xN-TiT>-*Rys:TE');
 
 // Multisite
 defined( 'WP_ALLOW_MULTISITE' )   or define( 'WP_ALLOW_MULTISITE', false );

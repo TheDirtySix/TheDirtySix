@@ -5,7 +5,7 @@
 
 
 
-## WordPress BASE ON "Skeleton"
+## WordPress "Skeleton"
 
 * More easy to work on WP
 

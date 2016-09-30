@@ -21,9 +21,6 @@
 After downloading you can continue to install WordPress
 1) Copy `local-config.sample.php` and rename it to `local-config.php`
 2) Add the database constants and the domain (e.g "http://localhost/TheDirtySix")
-3) In `wp-config.php` Edit the `$table_prefix`
-4) add the `*_KEY` constants which can be generated [here](https://api.wordpress.org/secret-key/1.1/salt)
-5) open your website and continue with the famous 5 minute install.
 
 
 ## Guides

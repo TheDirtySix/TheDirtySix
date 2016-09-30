@@ -2,6 +2,8 @@
 
 ## WordPress BASE ON "Skeleton"
 
+* More easy to work on WP
+
 ## Assumptions
 
 * 'wp/' and `wp-config.php` add to gitignore after first deploy

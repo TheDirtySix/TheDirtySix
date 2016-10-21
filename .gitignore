@@ -1,6 +1,6 @@
 /local-config.php
 /content/upgrade/
-/content/uploads/*
+
 /content/blogs.dir/*
 /content/cache/
 /content/backups/
@@ -16,3 +16,4 @@ nbproject/*
 .settings*
 .phpintel/*
 personal/*
+content/languages/admin-network-zh_TW.mo

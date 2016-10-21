@@ -1,0 +1,105 @@
+== Changelog ==
+
+= Theme Name: Variant Land Page=
+
+Version: 1.1.0
+================
+* Theme customizer sanitize function updated.
+* Added contact us link to customizer.
+* Removed unused codes from theme.
+* Added translation function for text strings.
+
+Version: 1.0.9
+================
+Accessibility review issue:
+
+* ARIA Landmarks: Moved role="main" to .col-md-8
+* Add little adjustment on .screen-reader-text
+
+Version: 1.0.8
+================
+All raised accessibility review issue fixed.
+
+* ARIA Landmarks issue fixed.
+* Link text issue fixed.
+* Keyboard Navigation issue fixed.
+* Contrast issue fixed.
+* Skip links issue fixed.
+* Forms issue fixed.
+
+Version: 1.0.7
+================
+All accessibility review issue fixed.
+
+* Headings issue fixed.
+* ARIA Landmarks issue fixed.
+* Link Text issue fixed.
+* Keyboard Navigation issue fixed.
+* Contrast issue fixed.
+* Skip links issue fixed.
+* Forms issue fixed.
+* Images issue fixed.
+* Disallowed issue fixed.
+
+
+Version: 1.0.6
+================
+* Top heading escaped with wp_kses_post instead of esc_html().
+* Replaced all dummy content which was not related to free version theme. 
+* Added capability => edit_theme_options to Customizer settings.
+* Removed Option Tree framework reference from readme.txt.
+* Escaped the heading output with esc_html().
+* Escaped all background css properties. 
+* Additionally, I added small tweak in template.css to fix landing page spacing issues.
+
+Version: 1.0.5
+================
+* All used assets license added in readme.txt.
+* All unused assets removed.
+* All unused images removed.
+* Explained theme functionality in reademe.txt.
+* All escaping issues fixed.
+* Removed dynamic.css, header-template.php and footer-template.php.
+* Removed </form> tag from footer.php also removed else statement.
+* Removed variant-customizer.css.
+* Removed customizer-js.php.
+* Removed all theme option framework functionality from theme and implemented only customizer settings functionality.
+* Removed dummy data releated files and functionality.
+* Removed unused customizer sections from theme.
+* Removed jQuery alias symbos $ form js file.
+* Replaced all minified version of js files with unminified versions.
+* Post thumbnail issue fixed.
+* All translation issue fixed.
+* Tgm required set to false.
+* License issue fixed.
+* Google Font issue fixed.
+* License attribution added for bootstrap and meanmenu.
+* Pot file name changed with theme text domain.
+* Text domain changed on all strings in all files.
+
+Version: 1.0.4
+================
+* Options Tree plugin removed from theme directory and recommended to external source via TGM.
+* The textdomain issue fixed.
+* Google font listed on readme.txt.
+* Escaped all un-escaped functions by WordPress functions.
+
+Version: 1.0.3
+================
+* Theme Uri Changed
+
+Version: 1.0.2
+================
+* Screenshot changed.
+* Theme style header content changed.
+
+Version: 1.0.1
+================
+* Translation Ready
+
+Version: 1.0
+================
+* Theme created.
+
+
+

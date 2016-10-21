@@ -1,0 +1,157 @@
+@import url(//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,700,600,800,900);
+html, body {
+    font-family: 'Raleway', sans-serif;
+}
+h1, h2, h3,h4, h5,h6{
+    font-family: 'Raleway', sans-serif;
+    color: #1a1a1a;
+}
+.form_wrapper {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.form_wrapper h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.form_wrapper p{
+    font-family: 'Raleway', sans-serif;
+    line-height: 25px;
+    margin-bottom: 6px;
+    font-size: 17px;
+    overflow: hidden;
+    display: inline-block;
+}
+.form_wrapper .view_form li label{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5em;
+}
+.form_wrapper .view_form li .view_wrapper input[type="text"], 
+.form_wrapper .view_form li .view_wrapper input[type="email"], 
+.form_wrapper .view_form li .view_wrapper select, 
+.form_wrapper .view_form li .view_wrapper textarea, 
+.form_wrapper .view_form li .view_wrapper .inner-payment-section{
+    font-family: 'Raleway', sans-serif;
+    border: 2px solid #d9d9d9;
+    padding: 5px 12px 5px 12px;
+    width: 90.5%;
+    font-size: 17px;
+    color: #666;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.form_wrapper .view_form li .view_wrapper textarea{
+    height: 120px;
+}
+.form_wrapper .view_form li .view_wrapper input[type="text"]:focus, 
+.form_wrapper .view_form li .view_wrapper input[type="email"]:focus, 
+.form_wrapper .view_form li .view_wrapper select:focus, 
+.form_wrapper .view_form li .view_wrapper textarea:focus, 
+.form_wrapper .view_form li .view_wrapper .inner-payment-section:focus{
+    border: 2px solid #ED3C3A;
+}
+.form_wrapper .view_form li .view_wrapper select{
+    width: 98.5%;
+    height: 47px;
+}
+.form_wrapper.nolabel li .view_wrapper ::-webkit-input-placeholder { /* WebKit browsers */
+    font-size: 18px;
+    color: #666;
+}
+.form_wrapper.nolabel li .view_wrapper :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-size: 18px;
+    color: #666;
+}
+.form_wrapper.nolabel li .view_wrapper ::-moz-placeholder{ /* Mozilla Firefox 19+ */
+    font-size: 18px;
+    color: #666;
+}
+
+.form_wrapper.nolabel li .view_wrapper :-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-size: 18px;
+    color: #666;
+}
+.form_wrapper .view_form .form_submit input[type="button"]{
+    width: 100%;
+    background: #ED3C3A;
+    padding: 5px 14px 8px 14px;
+    border-radius: 4px;
+    font-size: 27px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    webkit-box-shadow: 0 4px 0 rgba(194, 17, 15, 1);    
+    -moz-box-shadow: 0 4px 0 rgba(194, 17, 15, 1);    
+    box-shadow: 0 4px 0 rgba(194, 17, 15, 1);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.form_wrapper .view_form .form_submit input[type="button"]:hover{
+    background: rgba(194, 17, 15, 1);
+}
+.form_wrapper a.powered_by{
+    display: none;
+}
+.form_wrapper .view_form li .view_wrapper input.upload {
+    width: 40px;
+    height: 42px;
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    background-color: #e1e1e1;
+    background-position: 2px 5px;
+}
+.form_wrapper .view_form li .view_wrapper.cal .fg-choose {
+    width: 40px;
+    height: 42px;
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    background-color: #e1e1e1;
+    background-position: 2px 5px;
+}
+.form_wrapper .view_form li.fg-check-li .view_wrapper ul li input[type="checkbox"]{
+    margin-right: 15px;
+}
+@media only screen and (min-width: 200px) and (max-width: 300px) {
+    .form_wrapper .view_form .form_submit input[type="button"]{
+        width: 104%;
+    }
+
+}
+@media only screen and (min-width: 500px) and (max-width: 992px){
+    .form_wrapper_custom{
+        margin-top: 0;
+    }
+    .form_wrapper{
+        max-width: 100%;
+    }
+    .form_wrapper .view_form li .view_wrapper .fg-outlined{
+        float: none;
+    }
+    .form_wrapper .view_form li .view_wrapper input[type="text"], 
+    .form_wrapper .view_form li .view_wrapper input[type="email"], 
+    .form_wrapper .view_form li .view_wrapper select, 
+    .form_wrapper .view_form li .view_wrapper textarea, 
+    .form_wrapper .view_form li .view_wrapper .inner-payment-section{
+        width: 94%;}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+@media only screen and (max-width: 767px){
+    .form_wrapper_custom{
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 480px){
+}
+
+

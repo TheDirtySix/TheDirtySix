@@ -1,6 +1,6 @@
 /local-config.php
 /content/upgrade/
-/content/uploads/*
+
 /content/blogs.dir/*
 /content/cache/
 /content/backups/

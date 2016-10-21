@@ -33,7 +33,6 @@ define('AUTH_SALT',        'cJ>ubL>}nc=+0Ooka9#Ot|d}4Qvz0)J8|4<NYy2Lgy,Ge>Q1oPwG
 define('SECURE_AUTH_SALT', '6Fd(2=-z6^]3FsMoORD6d=WXPlM=,X~x]/s<]=7NZO+|Di|4!|R`wfc6(-0n 3~@');
 define('LOGGED_IN_SALT',   '%G6ONi$z7Wtl<|2k0|*bUDug8n1wIEr3f6~3r-zndk?,Ssz}^4F|X7}{|V10Bl1B');
 define('NONCE_SALT',       '<-$7(jv1F}) KAq+C2S./7qD|cXB3-K43o~:|B?VA9,/0]_1!xN-TiT>-*Rys:TE');
-define( 'UPLOADS', 'wp-content/'.'media' ); 
 
 // Multisite
 defined( 'WP_ALLOW_MULTISITE' )   or define( 'WP_ALLOW_MULTISITE', false );

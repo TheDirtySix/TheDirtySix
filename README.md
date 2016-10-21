@@ -15,7 +15,7 @@
 * WordPress is in it's own folder `/wp`.
 * Web root only has two folders `/wp` and `/content`
 * `wp-config.php` in the root (because it can't be in `/wp/`)
-
+* All work should be done under content
 
 ## How to install
 After downloading you can continue to install WordPress

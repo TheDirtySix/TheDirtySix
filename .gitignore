@@ -4,7 +4,7 @@
 /content/blogs.dir/*
 /content/cache/
 /content/backups/
-/wp/*
+
 sitemap.xml.gz
 sitemap.xml
 *.log
@@ -16,3 +16,4 @@ nbproject/*
 .settings*
 .phpintel/*
 personal/*
+content/languages/*

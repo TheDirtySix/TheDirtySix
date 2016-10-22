@@ -59,6 +59,7 @@ defined( 'WP_CONTENT_DIR' ) or define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '
 defined( 'WP_CONTENT_URL' ) or define( 'WP_CONTENT_URL', WP_HOME . '/content' );
 defined( 'PLUGINDIR' )      or define( 'PLUGINDIR', 'content/plugins' ); // Relative to ABSPATH. For back compat.
 defined( 'MUPLUGINDIR' )    or define( 'MUPLUGINDIR', 'content/mu-plugins' ); // Relative to ABSPATH. For back compat.
+defined( 'UPLOADS' )        or define( 'UPLOADS', 'content/uploads' ); 
 
 // Debug turned off on production
 defined( 'WP_DEBUG' ) or define( 'WP_DEBUG', false );

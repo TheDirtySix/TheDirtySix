@@ -11,7 +11,7 @@
 ?>
 
 <footer>
-<p>FOLLOW US (social links)</p>
+<p>FOLLOW US (social link icons)</p>
 <small>© 2016 AMPLIFIED VOICES</small>
 <p>info@amplifiedvoices.com</p>
 <p>phone number</p>

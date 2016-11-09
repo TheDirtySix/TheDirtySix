@@ -1,3 +1,4 @@
 /wp-admin/*
 /wp-include/*
 /wp-snapshots/*
+wp-config.php

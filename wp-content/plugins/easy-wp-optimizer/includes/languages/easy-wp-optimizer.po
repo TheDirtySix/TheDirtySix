@@ -1,0 +1,593 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy WP Optimizer\n"
+"POT-Creation-Date: 2016-07-29 11:11+0800\n"
+"PO-Revision-Date: 2016-07-29 11:11+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/languages.php:9
+msgid "WP Optimizer"
+msgstr ""
+
+#: includes/languages.php:10
+msgid "Clean Up WP Data"
+msgstr ""
+
+#: includes/languages.php:11
+msgid "Manual Clean Up"
+msgstr ""
+
+#: includes/languages.php:14
+msgid "Type Of Data"
+msgstr ""
+
+#: includes/languages.php:15
+msgid "Count"
+msgstr ""
+
+#: includes/languages.php:16
+msgid "Auto Drafts"
+msgstr ""
+
+#: includes/languages.php:17
+msgid ""
+"Auto Drafts are the Pages & Posts saved as draft automatically in WordPress "
+"Database."
+msgstr ""
+
+#: includes/languages.php:18
+msgid "Empty"
+msgstr ""
+
+#: includes/languages.php:19
+msgid "Dashboard Transient Feed"
+msgstr ""
+
+#: includes/languages.php:20
+msgid ""
+"Transient Feed in WordPress use Database entries to cache a certain entries."
+msgstr ""
+
+#: includes/languages.php:21
+msgid "Unapproved Comments"
+msgstr ""
+
+#: includes/languages.php:22
+msgid "Unapproved Comments are the Comments which are not approved."
+msgstr ""
+
+#: includes/languages.php:23
+msgid "Orphan Comments Meta"
+msgstr ""
+
+#: includes/languages.php:24
+msgid ""
+"Orphan Comments Meta holds the miscellaneous bits of extra information of "
+"comment."
+msgstr ""
+
+#: includes/languages.php:25
+msgid "Orphan Posts Meta"
+msgstr ""
+
+#: includes/languages.php:26
+msgid "Orphan Posts Meta holds the junk or obsolete data."
+msgstr ""
+
+#: includes/languages.php:27
+msgid "Orphan Relationships"
+msgstr ""
+
+#: includes/languages.php:28
+msgid "Orphan Relationships holds the junk or obsolete Category and Tag."
+msgstr ""
+
+#: includes/languages.php:29
+msgid "Revisions"
+msgstr ""
+
+#: includes/languages.php:30
+msgid ""
+"The WordPress Revision System stores a record of each saved draft or "
+"published update. Revisions are stored in the Posts Table."
+msgstr ""
+
+#: includes/languages.php:31
+msgid "Pingbacks"
+msgstr ""
+
+#: includes/languages.php:32
+msgid ""
+"A Pingback is a type of comment that's created when you link to another blog "
+"post where Pingbacks are enabled."
+msgstr ""
+
+#: includes/languages.php:33
+msgid "Transient Options"
+msgstr ""
+
+#: includes/languages.php:34
+msgid ""
+"Transient Options are like a basic cache system used by WordPress. Clearing "
+"these options before a backup will help to save space in your backup files."
+msgstr ""
+
+#: includes/languages.php:35
+msgid "Trackbacks"
+msgstr ""
+
+#: includes/languages.php:36
+msgid ""
+"Trackbacks are a way to notify legacy blog systems that you have linked to "
+"them. If you link to a WordPress blog they will be notified automatically "
+"using pingbacks, no other action necessary."
+msgstr ""
+
+#: includes/languages.php:37
+msgid "Spam Comments"
+msgstr ""
+
+#: includes/languages.php:38
+msgid "Spam Comments are the unwanted Comments in the WordPress Database."
+msgstr ""
+
+#: includes/languages.php:39
+msgid "Trash Comments"
+msgstr ""
+
+#: includes/languages.php:40
+msgid ""
+"Trash Comments are the Comments which are stored in the WordPress Trash."
+msgstr ""
+
+#: includes/languages.php:41
+msgid "Drafts"
+msgstr ""
+
+#: includes/languages.php:42
+msgid "New Post & Page created as Draft in WordPress."
+msgstr ""
+
+#: includes/languages.php:43
+msgid "Deleted Posts"
+msgstr ""
+
+#: includes/languages.php:44
+msgid "Deleted Posts are the posts which are removed from the WordPress Data."
+msgstr ""
+
+#: includes/languages.php:45
+msgid "Duplicated Post Meta"
+msgstr ""
+
+#: includes/languages.php:46
+msgid "Duplicated Post Meta holds the duplicate data in the Posts Table."
+msgstr ""
+
+#: includes/languages.php:47
+msgid "oEmbed Caches in Post Meta"
+msgstr ""
+
+#: includes/languages.php:48
+msgid ""
+"oEmbed Caches in Post Meta holds the data related to Embeddable Content."
+msgstr ""
+
+#: includes/languages.php:49
+msgid "Duplicated Comment Meta"
+msgstr ""
+
+#: includes/languages.php:50
+msgid "Duplicated Comment Meta holds the information of Duplicate Comments."
+msgstr ""
+
+#: includes/languages.php:51
+msgid "Orphan User Meta"
+msgstr ""
+
+#: includes/languages.php:52
+msgid ""
+"Orphan User Meta holds the orphan data of Usermeta Table in the Database."
+msgstr ""
+
+#: includes/languages.php:53
+msgid "Duplicated User Meta"
+msgstr ""
+
+#: includes/languages.php:54
+msgid "Duplicated User Meta holds the information of Duplicate user data."
+msgstr ""
+
+#: includes/languages.php:55
+msgid "Orphaned Term Relationships"
+msgstr ""
+
+#: includes/languages.php:56
+msgid ""
+"Orphaned Term Relationships holds the junk or obsolete term Category and Tag."
+msgstr ""
+
+#: includes/languages.php:57
+msgid "Unused Terms"
+msgstr ""
+
+#: includes/languages.php:58
+msgid "Unused Terms holds the term data which is not used by WordPress."
+msgstr ""
+
+#: includes/languages.php:61
+msgid "Apply"
+msgstr ""
+
+#: includes/languages.php:63
+msgid "Bulk Action"
+msgstr ""
+
+#: includes/languages.php:64
+msgid "Action"
+msgstr ""
+
+#: includes/languages.php:66
+msgid "WordPress Data"
+msgstr ""
+
+#: includes/languages.php:68
+msgid "Backup & Restore Database"
+msgstr ""
+
+#: includes/languages.php:70
+msgid "Backup Database"
+msgstr ""
+
+#: includes/languages.php:71
+msgid "Restore Database"
+msgstr ""
+
+#: includes/languages.php:72
+msgid "System Information"
+msgstr ""
+
+#: includes/languages.php:76
+msgid "WordPress Data - Manual Clean Up"
+msgstr ""
+
+#: includes/languages.php:79
+msgid "Database - Manual Clean Up"
+msgstr ""
+
+#: includes/languages.php:108
+msgid "Selected Data has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:120
+msgid "Auto Drafts has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:121
+msgid "Dashboard Transient Feed has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:122
+msgid "Unapproved Comments has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:123
+msgid "Orphan Comments Meta has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:124
+msgid "Orphan Posts Meta has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:125
+msgid "Orphan Relationships has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:126
+msgid "Revisions has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:127
+msgid "Pingbacks has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:128
+msgid "Transient Options has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:129
+msgid "Trackbacks has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:130
+msgid "Spam Comments has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:131
+msgid "Trash Comments has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:132
+msgid "Drafts has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:133
+msgid "Deleted Posts has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:134
+msgid "Duplicated Post Meta has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:135
+msgid "oEmbed Caches in Post Meta has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:136
+msgid "Duplicated Comment Meta has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:137
+msgid "Orphan User Meta has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:138
+msgid "Duplicated User Meta has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:139
+msgid "Orphaned Term Relationships has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:140
+msgid "Unused Terms has been cleaned Successfully."
+msgstr ""
+
+#: includes/languages.php:144
+msgid "Please choose an Action!"
+msgstr ""
+
+#: includes/languages.php:145
+msgid "Please choose atleast 1 type of Data to Clean!"
+msgstr ""
+
+#: includes/languages.php:146
+msgid "Are you sure you want to Clean ?"
+msgstr ""
+
+#: includes/languages.php:148
+msgid "Please choose atleast 1 record to delete!"
+msgstr ""
+
+#: includes/languages.php:150
+msgid "Please choose atleast 1 Type of Data for scheduling!"
+msgstr ""
+
+#: includes/languages.php:151
+msgid "Are you sure you want to perform this action ?"
+msgstr ""
+
+#: includes/languages.php:171
+msgid "Success!"
+msgstr ""
+
+#: includes/languages.php:209
+msgid "Close System Information!"
+msgstr ""
+
+#: includes/languages.php:210
+msgid "Get System Information!"
+msgstr ""
+
+#: includes/languages.php:211
+msgid "Server Information"
+msgstr ""
+
+#: includes/languages.php:213
+msgid "Environment Key"
+msgstr ""
+
+#: includes/languages.php:214
+msgid "Environment Value"
+msgstr ""
+
+#: includes/languages.php:215
+msgid "Home URL"
+msgstr ""
+
+#: includes/languages.php:216
+msgid "Site URL"
+msgstr ""
+
+#: includes/languages.php:217
+msgid "WP Version"
+msgstr ""
+
+#: includes/languages.php:218
+msgid "WP Multisite Enabled"
+msgstr ""
+
+#: includes/languages.php:219
+msgid "WP Remote Post"
+msgstr ""
+
+#: includes/languages.php:220
+msgid "Web Server Info"
+msgstr ""
+
+#: includes/languages.php:221
+msgid "PHP Version"
+msgstr ""
+
+#: includes/languages.php:222
+msgid "MySQL Version"
+msgstr ""
+
+#: includes/languages.php:223
+msgid "WP Debug Mode"
+msgstr ""
+
+#: includes/languages.php:224
+msgid "WP Language"
+msgstr ""
+
+#: includes/languages.php:225 includes/languages.php:290
+msgid "Default"
+msgstr ""
+
+#: includes/languages.php:226
+msgid "WP Max Upload Size"
+msgstr ""
+
+#: includes/languages.php:227
+msgid "PHP Max Script Execute Time"
+msgstr ""
+
+#: includes/languages.php:228
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: includes/languages.php:229
+msgid "SUHOSIN Installed"
+msgstr ""
+
+#: includes/languages.php:230
+msgid "Default Timezone"
+msgstr ""
+
+#: includes/languages.php:231
+msgid "Operating System"
+msgstr ""
+
+#: includes/languages.php:232
+msgid "Memory usage"
+msgstr ""
+
+#: includes/languages.php:233
+msgid "SQL Mode"
+msgstr ""
+
+#: includes/languages.php:234
+msgid "PHP Safe Mode"
+msgstr ""
+
+#: includes/languages.php:235
+msgid "PHP Allow URL fopen"
+msgstr ""
+
+#: includes/languages.php:236
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: includes/languages.php:237
+msgid "PHP Max Post Size"
+msgstr ""
+
+#: includes/languages.php:238
+msgid "PCRE Backtracking Limit"
+msgstr ""
+
+#: includes/languages.php:239
+msgid "PHP Exif support"
+msgstr ""
+
+#: includes/languages.php:240
+msgid "PHP IPTC support"
+msgstr ""
+
+#: includes/languages.php:241
+msgid "PHP XML support"
+msgstr ""
+
+#: includes/languages.php:242
+msgid "Active Plugin Information"
+msgstr ""
+
+#: includes/languages.php:243
+msgid "Plugin Key"
+msgstr ""
+
+#: includes/languages.php:244
+msgid "Plugin Value"
+msgstr ""
+
+#: includes/languages.php:245
+msgid "Active Theme Information"
+msgstr ""
+
+#: includes/languages.php:246
+msgid "Theme Key"
+msgstr ""
+
+#: includes/languages.php:247
+msgid "Theme Value"
+msgstr ""
+
+#: includes/languages.php:248
+msgid "Theme Name"
+msgstr ""
+
+#: includes/languages.php:249
+msgid "Theme Version"
+msgstr ""
+
+#: includes/languages.php:250
+msgid "Author URL"
+msgstr ""
+
+#: includes/languages.php:294
+msgid "here"
+msgstr ""
+
+#: includes/languages.php:295
+msgid "Important Disclaimer!"
+msgstr ""
+
+#: includes/languages.php:299
+msgid "* For Easy WP Optimizer Demos, click "
+msgstr ""
+
+#: includes/languages.php:301
+msgid "* For Easy WP Optimizer Manual for this page, click "
+msgstr ""
+
+#: includes/languages.php:305
+msgid "Are you sure you want to Download this backp ?"
+msgstr ""
+
+#: includes/languages.php:306
+msgid "Are you sure you want to restore this backp ?"
+msgstr ""
+
+#: includes/languages.php:307
+msgid "Are you sure you want to delete this backp ?"
+msgstr ""
+
+#: includes/languages.php:309
+msgid ""
+"Please do not refresh or close the browser, to prevent the program is "
+"aborted, if inadvertently! It may result in damage to the structure of the "
+"database! "
+msgstr ""
+
+#: includes/languages.php:310
+msgid "Backup data is being imported, please wait!"
+msgstr ""
+
+#: includes/languages.php:312
+msgid "This backup has been deleted Successfully!"
+msgstr ""

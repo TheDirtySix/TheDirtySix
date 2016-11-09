@@ -1,0 +1,557 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+Theme: Anaglyph Lite Child
+http://dirtysix.knowbility.org.php56-11.dfw3-2.websitetestlink.com/anaglyph-lite-child/
+Authors: Seth Perlstein, Olivia Oddo, Elena Tsoi, Ming-tse Chen, Alexandre Morand, Rene Neumann
+Author URI: http://dirtysix.knowbility.org.php56-11.dfw3-2.websitetestlink.com
+Template: anaglyph-lite
+Version: 1.0.0
+*/
+
+
+/*GLOBAL*/
+/* Hides horizontal scroll bar */
+html {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	margin-top: 0px !important;
+}
+
+/* Adds red focus indicator to everything for accessibility*/
+*:focus {
+	border: dotted 1px #FF5A59;
+}
+
+.site .skip-link {
+    display: none;
+}
+
+.gr__dirtysix_knowbility_org_php56-11_dfw3-2_websitetestlink_com {
+	margin-top: 0px !important;
+}
+
+#skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
+}
+
+/*HEADER*/
+
+/* Sets logo width and height */
+a.navbar-brand > img {
+  width: 200px !important;
+	height: 57px !important;
+	background-color: rgba(255,255,255,0.7);
+	margin-top: -10px;
+}
+
+/*Sets nav bg to transparent white */
+.primary-navigation {
+ background-color: #fff !important;
+}
+
+/* Changes the color of nav items */
+#menu-av-menu > li > a {
+	color: rgb(160, 53,148);
+}
+
+/* Removes red/yellow borders */
+.navigation nav a:after, .navigation nav a:before {
+ display: none !important;
+}
+
+/* Changes the nav items font weight and color on hover */
+#menu-av-menu > li > a:hover, #menu-av-menu > li > a:active {
+ color: rgb(255, 90, 89) !important;
+}
+
+/* Changes the bg color of Donate button */
+#menu-av-menu > li.donate-button > a {
+ background: rgb(255, 90, 89) !important;
+}
+
+#menu-av-menu > li.donate-button > a {
+	color: #fff !important;
+}
+
+/* Changes donate button's text color on hover */
+#menu-av-menu > li.donate-button > a:hover {
+ color: rgb(63, 57, 148) !important;
+}
+
+#menu-av-menu > li.donate-button > a:active {
+ color: rgb(63, 57, 148) !important;
+}
+
+/*BODY*/
+#main {
+	padding-top: 0px;
+}
+
+.quote {
+	color: #a03594;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+.bioName {
+	color: #a03594;
+	display: inline;
+}
+
+.bioTitle {
+	color: #a03594;
+	display: inline;
+	font-style: italic;
+ }
+
+ .bioDescription{
+ 	color: #a03594;
+ }
+
+ #aboutBackground {
+ 	background-color: #a03594;
+ 	width: 100%;
+ 	padding: 0;
+ }
+
+ .aboutTitle{
+ 	color: #ffffff;
+ }
+
+ .aboutDesc{
+ 	color: #ffffff;
+ 	font-style: italic;
+ }
+
+ .example {
+ 	color: #ffffff;
+ }
+
+.quoteBottom{
+	color: #ff5a59;
+}
+
+.fullWidthPhoto{
+	width: 100% !important;
+}
+
+section.block {
+  padding: 0;
+}
+
+.sub-page .block {
+	padding: 0;
+}
+
+.title {
+	display: none;
+ }
+
+.fullwidth {
+	width: 100%;
+	height: 100%;
+}
+
+ img .fullWidth{
+ 	width: 100% !important;
+ 	position: absolute;
+ 	top: -100px;
+ }
+
+ img.aligncenter {
+ 	margin: 0px;
+	width: 100%;
+	display: inline;
+ }
+
+ .container{
+ 	margin: 0 !important;
+ 	padding: 0 !important;
+ 	width: 100%;
+ }
+
+ div .aboutContainer{
+ 	padding-right: 30%;
+ 	padding-left: 80px;
+ 	padding-top: 40px;
+ 	padding-bottom: 40px;
+ }
+
+h2 {
+	font-weight: bold !important;
+}
+
+h2.thanks {
+	margin: 0px !important;
+}
+
+ h4 .quoteBottom{
+ 	font-style: italic;
+ }
+
+ .top{
+   position: absolute;
+   top: 200px;
+   left: 100px;
+   width: 25%;
+   color: #a03594;
+}
+
+.bottom h4 {
+   position: absolute;
+   top: 400px;
+   left: 100px;
+   width: 25%;
+   color: #a03594;
+
+}
+
+p span {
+font-style: italic;
+ }
+
+ .theFacts{
+   position: absolute;
+   top: 200px;
+   left: 100px;
+   width: 25%;
+   color: #ff5a59;
+}
+
+button.theFacts {
+	color: #ffffff;
+	background-color: #ff5a59;
+	border: none;
+}
+
+div#board {
+    color: #3f3994;
+}
+
+
+.resourcesBackground {
+    background-color: #ff5a59;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.issueContainer {
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-right: 40%;
+}
+
+.issueBlue {
+    color: #3f3994;
+}
+
+.issuePurple {
+    color: #a03594;
+}
+
+.issuePink {
+    color: #ff5a59;
+}
+
+.getInvolvedContainer {
+    background-color: #ff5a59;
+    color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 40%;
+}
+
+p.donateDesc {
+    font-style: italic;
+    color: #fff;
+}
+
+button.giveButton {
+    background-color: #fff;
+    color: #ff5a59;
+    border: none;
+    }
+
+ .involvedEventsContainer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 40%;
+    color: #a03594;
+}
+
+button.involvedButton {
+    background-color: #a03594;
+    color: #fff;
+    border: none;
+}
+
+.volunteerContainer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-right: 20%;
+    margin-left: 20%;
+    color: #ff5a59;
+}
+
+button.emailEvents {
+    background-color: #ff5a59;
+    color: #fff;
+    border: none;
+}
+
+.helpTop{
+   position: absolute;
+   top: 200px;
+   left: 100px;
+   width: 25%;
+   color: #ff5a59;
+}
+
+.donateContainer {
+    background-color: #a03594;
+    padding-left: 80px;
+    padding-right: 50%;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    color: #fff;
+}
+
+.donateTop{
+   position: absolute;
+   top: 200px;
+   left: 100px;
+   width: 25%;
+   color: #ff5a59;
+}
+
+button.donateOnlineButton {
+	border: none;
+	background-color: #fff;
+}
+
+.homeContainer {
+    background-color: #ff5a59;
+    color: #fff;
+    padding: 100px;
+}
+
+.homeContainer h5 {
+	line-height: 1.5;
+}
+
+button {
+	margin-top: 50px;
+    padding: 15px;
+}
+
+/*Changes button opacity to 1 */
+.blog-posts .blog-post .blog-post-content p, .container p {
+	opacity: 1.0 !important;
+}
+
+button.planButton {
+    background-color: #fff;
+    color: #ff5a59;
+    border: none;
+}
+
+.homeTop {
+   position: absolute;
+   top: 200px;
+   left: 100px;
+   width: 35%;
+   color: #fff;
+   background-color: rgb(63, 57, 148);
+   padding: 25px;
+   padding-bottom: 40px !important;
+}
+
+button.voiceButton {
+	border: none;
+	background-color: #ff5a59;
+	color: #fff;
+}
+
+span.heardTop {
+    position: absolute;
+    top: 60%;
+    left: 100px;
+    width: 25%;
+    color: #ff5a59;
+}
+
+button.getButton {
+    background-color: #ff5a59;
+    color: #fff;
+    border: none;
+}
+
+.homeContainerBottom {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /*padding-right: 65%;*/
+    padding-left: 20px;
+    color: #3f3994;
+}
+
+.homeBottom {
+	margin-left: 60px;
+}
+
+.homeBottom .row {
+	padding-top: 80px;
+}
+
+h4.without {
+    font-style: italic;
+}
+
+button.sponsorButton {
+    text-decoration: none;
+	color: #ffffff;
+    background-color: #3f3994;
+    border: none;
+}
+
+button.sponsorButton a:hover {
+    text-decoration: none !important;
+}
+
+button.sponsorButton a:active {
+    text-decoration: none;
+	color: #FF5A59;
+}
+
+button.sponsorButton a:focus {
+    text-decoration: none;
+	color: #FF5A59;
+}
+
+.sponsorsContainer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 40%;
+    color: #a03594;
+}
+
+h5.sponsors {
+    color: #a03594;
+}
+
+h5.donors {
+    color: #ff5a59;
+}
+
+h5.supporters {
+    color: #ffa71a;
+}
+
+.sponsorsCopy {
+	background-color: #FF5A59;
+    color: #fff;
+    padding: 75px;
+}
+
+.sponsorsCopy a {
+	text-decoration: none;
+}
+
+.sponsorsCopy a:hover {
+	text-decoration: none;
+	color: #3F3994;
+}
+
+.sponsorsCopy a:active {
+	text-decoration: none;
+	color: #3F3994;
+}
+
+.sponsorsLogos {
+	padding: 75px;
+	margin: auto;
+    text-align: center;
+}
+
+.sponsorsLogos img {
+	margin: 50px;
+}
+
+/*FOOTER*/
+footer {
+	background-color: #3F3994;
+	color: white;
+}
+
+footer .row {
+	padding: 30px;
+}
+
+footer p {
+	color: white;
+}
+
+footer a {
+	color: white;
+}
+
+footer a:active {
+	color: #FF5A59 !important;
+}
+
+footer a:focus {
+	color: #FF5A59 !important;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #FF5A59;
+	text-decoration: none;
+}
+
+footer h5 {
+	margin-top: 0px;
+	color: white;
+}
+
+.col-sm-12 col-md-6 left {
+	text-align: left;
+}
+
+.col-sm-12 col-md-6 right {
+	text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+	.right {
+		text-align: left !important;
+	}
+}
+
+.col-xs-12 copyright {
+	vertical-align: text-bottom;
+	font-size: 75%;
+}
+
+.footer-AV-logo {
+	float: right;
+}
+
+footer .social-logo {
+	background-color: white;
+	}
+
+footer .social-logo:hover {
+	background-color: #FF5A59;
+	}
